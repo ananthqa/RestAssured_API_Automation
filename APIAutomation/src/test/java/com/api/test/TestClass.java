@@ -20,6 +20,7 @@ public class TestClass extends BaseClass {
 		System.out.println(res.getBody().asPrettyString());
 		
 		test.log(Status.INFO, "SINGLE USER API");
+		test.log(Status.INFO, "SINGLE USER API DESCRIPTION");
 		test.log(Status.INFO, "Actual response code : "+res.getStatusCode());
 		test.log(Status.INFO, MarkupHelper.createCodeBlock(res.getBody().asPrettyString()));
 		
