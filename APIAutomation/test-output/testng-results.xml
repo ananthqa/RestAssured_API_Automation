@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-22T19:59:12 EDT" name="Default suite" finished-at="2023-05-22T19:59:14 EDT" duration-ms="1739">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T19:59:12 EDT" name="Default test" finished-at="2023-05-22T19:59:14 EDT" duration-ms="1739">
+      <class name="com.api.test.TestClass">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:com.api.test.TestClass@22555ebf]" started-at="2023-05-22T19:59:12 EDT" name="ReportSetup" finished-at="2023-05-22T19:59:13 EDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method signature="SingleUser()[pri:0, instance:com.api.test.TestClass@22555ebf]" started-at="2023-05-22T19:59:13 EDT" name="SingleUser" finished-at="2023-05-22T19:59:14 EDT" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleUser -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.api.test.TestClass@22555ebf]" started-at="2023-05-22T19:59:14 EDT" name="getReport" finished-at="2023-05-22T19:59:14 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingleUser status=SUCCESS method=TestClass.SingleUser()[pri:0, instance:com.api.test.TestClass@22555ebf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.api.test.TestClass@22555ebf]" started-at="2023-05-22T19:59:14 EDT" name="endTest" finished-at="2023-05-22T19:59:14 EDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:com.api.test.TestClass@22555ebf]" started-at="2023-05-22T19:59:14 EDT" name="closeReport" finished-at="2023-05-22T19:59:14 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- com.api.test.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
