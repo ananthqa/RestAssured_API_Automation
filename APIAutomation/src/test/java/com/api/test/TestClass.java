@@ -25,5 +25,23 @@ public class TestClass extends BaseClass {
 		
 		
 	}
+	
+	@Test
+	public void ListUsers() {
+		
+		Response res=givenSpec().when().get("/api/users?page=2");
+		
+		test=report.createTest(" Validate List Users Test Case");
+		System.out.println(res.getStatusCode());
+		System.out.println(" LIST USERS API CALL => ");
+		System.out.println(res.getBody().asPrettyString());
+		
+		test.log(Status.INFO, "LIST USERS API");
+		test.log(Status.INFO, "Actual response code : "+res.getStatusCode());
+		test.log(Status.INFO, MarkupHelper.createCodeBlock(res.getBody().asPrettyString()));
+		
+		
+	}
+
 
 }
